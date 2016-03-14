@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Application-related codes">
+      <UniqueIdentifier>{3f9a2d4a-8b2c-4dd0-81d4-d5a28217e29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene Codes">
+      <UniqueIdentifier>{216e1e13-462e-4004-b6ab-6830fd3f0783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application-related codes">
+      <UniqueIdentifier>{fd22d57f-27c0-4dc9-a70e-82f13a8ff059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene Codes">
+      <UniqueIdentifier>{0d7d099c-a636-4321-8fd6-ed3f2dea5aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player Class">
+      <UniqueIdentifier>{0c4d3e8a-bbaa-4c9b-a16c-21262bb95ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player Class">
+      <UniqueIdentifier>{2edfacab-d03c-490c-a6ff-00c5fee39487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{2b590e7e-7aaf-4d59-97a8-94ec58456357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game State Manager">
+      <UniqueIdentifier>{cd599195-a807-4da0-b62d-bf520a372650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frustum Culling">
+      <UniqueIdentifier>{a5cbe3d9-4c99-4c5c-bb3c-8bd95ce1e044}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>Source Files\Application-related codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source Files\Application-related codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera3.cpp">
+      <Filter>Source Files\Application-related codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadHmap.cpp">
+      <Filter>Source Files\Application-related codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadOBJ.cpp">
+      <Filter>Source Files\Application-related codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadTGA.cpp">
+      <Filter>Source Files\Application-related codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files\Application-related codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Source Files\Application-related codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MeshBuilder.cpp">
+      <Filter>Source Files\Application-related codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle.cpp">
+      <Filter>Source Files\Application-related codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\shader.cpp">
+      <Filter>Source Files\Application-related codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility.cpp">
+      <Filter>Source Files\Application-related codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteAnimation.cpp">
+      <Filter>Source Files\Application-related codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneAssignment.cpp">
+      <Filter>Source Files\Scene Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Source Files\Player Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics.cpp">
+      <Filter>Header Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateManager.cpp">
+      <Filter>Game State Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IntroState.cpp">
+      <Filter>Game State Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MenuState.cpp">
+      <Filter>Game State Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayState.cpp">
+      <Filter>Game State Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneAssignment2D.cpp">
+      <Filter>Source Files\Scene Codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DepthFBO.cpp">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FrustrumCulling.cpp">
+      <Filter>Frustum Culling</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Application.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera3.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Fog.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Geometry.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Light.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoadHmap.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoadOBJ.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoadTGA.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Material.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MeshBuilder.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\shader.hpp">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vertex.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>Header Files\Scene Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneAssignment.h">
+      <Filter>Header Files\Scene Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteAnimation.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Header Files\Player Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateManager.h">
+      <Filter>Game State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameState.h">
+      <Filter>Game State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IntroState.h">
+      <Filter>Game State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MenuState.h">
+      <Filter>Game State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayState.h">
+      <Filter>Game State Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneAssignment2D.h">
+      <Filter>Header Files\Scene Codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DepthFBO.h">
+      <Filter>Header Files\Application-related codes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FrustrumCulling.h">
+      <Filter>Frustum Culling</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\Shadow.fragmentshader">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="Shader\Shadow.vertexshader">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
