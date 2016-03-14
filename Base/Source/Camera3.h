@@ -32,7 +32,7 @@ public:
 	virtual void Init(const Vector3& pos, const Vector3& target, const Vector3& up, std::vector<unsigned char> heightmap, Vector3 tScale);
 	virtual void Update(double dt);
 	// Update Camera status
-	virtual void UpdateStatus(const unsigned char key);
+	virtual void UpdateStatus(const unsigned char key, const bool status = true);
 	virtual void Reset();
 
 	virtual void MoveForward(const double dt);

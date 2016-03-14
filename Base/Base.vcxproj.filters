@@ -16,14 +16,8 @@
     <Filter Include="Header Files\Application-related codes">
       <UniqueIdentifier>{3f9a2d4a-8b2c-4dd0-81d4-d5a28217e29b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Scene Codes">
-      <UniqueIdentifier>{216e1e13-462e-4004-b6ab-6830fd3f0783}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Application-related codes">
       <UniqueIdentifier>{fd22d57f-27c0-4dc9-a70e-82f13a8ff059}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Scene Codes">
-      <UniqueIdentifier>{0d7d099c-a636-4321-8fd6-ed3f2dea5aef}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Player Class">
       <UniqueIdentifier>{0c4d3e8a-bbaa-4c9b-a16c-21262bb95ec6}</UniqueIdentifier>
@@ -34,11 +28,32 @@
     <Filter Include="Header Files\Physics">
       <UniqueIdentifier>{2b590e7e-7aaf-4d59-97a8-94ec58456357}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game State Manager">
-      <UniqueIdentifier>{cd599195-a807-4da0-b62d-bf520a372650}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Frustum Culling">
       <UniqueIdentifier>{a5cbe3d9-4c99-4c5c-bb3c-8bd95ce1e044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{cd599195-a807-4da0-b62d-bf520a372650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Game Flow">
+      <UniqueIdentifier>{57bcf1fe-50bc-406e-a7ee-fb2c64ff6563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Menu Flow">
+      <UniqueIdentifier>{6f2e618f-e277-46c9-b1c2-d56d43e24cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Master">
+      <UniqueIdentifier>{fcc8ed82-cd1d-49d8-9984-e6e9f00e3a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game State Management">
+      <UniqueIdentifier>{e32810c3-8c27-4015-9b83-90a68e95f236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game State Management\Game Flow">
+      <UniqueIdentifier>{88766229-49c2-4d21-a27c-bfacb48cef0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game State Management\Menu Flow">
+      <UniqueIdentifier>{60ed43cf-9b1a-4e02-9917-58d8e3c4d14b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game State Management\Master">
+      <UniqueIdentifier>{ca92e6ae-8272-44d8-94b4-bde110c811f2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -81,34 +96,37 @@
     <ClCompile Include="Source\SpriteAnimation.cpp">
       <Filter>Source Files\Application-related codes</Filter>
     </ClCompile>
-    <ClCompile Include="Source\SceneAssignment.cpp">
-      <Filter>Source Files\Scene Codes</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Player.cpp">
       <Filter>Source Files\Player Class</Filter>
     </ClCompile>
     <ClCompile Include="Source\Physics.cpp">
       <Filter>Header Files\Physics</Filter>
     </ClCompile>
-    <ClCompile Include="Source\GameStateManager.cpp">
-      <Filter>Game State Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\IntroState.cpp">
-      <Filter>Game State Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\MenuState.cpp">
-      <Filter>Game State Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\PlayState.cpp">
-      <Filter>Game State Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\SceneAssignment2D.cpp">
-      <Filter>Source Files\Scene Codes</Filter>
-    </ClCompile>
     <ClCompile Include="Source\DepthFBO.cpp">
       <Filter>Header Files\Application-related codes</Filter>
     </ClCompile>
-    <ClCompile Include="Source\FrustrumCulling.cpp">
+    <ClCompile Include="Source\Scenes\Master\SceneGameBase.cpp">
+      <Filter>Scenes\Master</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\Master\ScenePlay2D.cpp">
+      <Filter>Scenes\Master</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenes\Master\ScenePlay3D.cpp">
+      <Filter>Scenes\Master</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateManagement\Master\GameStateManager.cpp">
+      <Filter>Game State Management\Master</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateManagement\Menu Flow\IntroState.cpp">
+      <Filter>Game State Management\Menu Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateManagement\Menu Flow\MenuState.cpp">
+      <Filter>Game State Management\Menu Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateManagement\Game Flow\PlayState.cpp">
+      <Filter>Game State Management\Game Flow</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FrustumCulling\FrustrumCulling.cpp">
       <Filter>Frustum Culling</Filter>
     </ClCompile>
   </ItemGroup>
@@ -161,12 +179,6 @@
     <ClInclude Include="Source\Vertex.h">
       <Filter>Header Files\Application-related codes</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Scene.h">
-      <Filter>Header Files\Scene Codes</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneAssignment.h">
-      <Filter>Header Files\Scene Codes</Filter>
-    </ClInclude>
     <ClInclude Include="Source\SpriteAnimation.h">
       <Filter>Header Files\Application-related codes</Filter>
     </ClInclude>
@@ -176,28 +188,37 @@
     <ClInclude Include="Source\Physics.h">
       <Filter>Header Files\Physics</Filter>
     </ClInclude>
-    <ClInclude Include="Source\GameStateManager.h">
-      <Filter>Game State Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\GameState.h">
-      <Filter>Game State Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\IntroState.h">
-      <Filter>Game State Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\MenuState.h">
-      <Filter>Game State Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\PlayState.h">
-      <Filter>Game State Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\SceneAssignment2D.h">
-      <Filter>Header Files\Scene Codes</Filter>
-    </ClInclude>
     <ClInclude Include="Source\DepthFBO.h">
       <Filter>Header Files\Application-related codes</Filter>
     </ClInclude>
-    <ClInclude Include="Source\FrustrumCulling.h">
+    <ClInclude Include="Source\Scenes\Master\SceneGameBase.h">
+      <Filter>Scenes\Master</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\Master\ScenePlay2D.h">
+      <Filter>Scenes\Master</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\Master\ScenePlay3D.h">
+      <Filter>Scenes\Master</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateManagement\Master\GameState.h">
+      <Filter>Game State Management\Master</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateManagement\Master\GameStateManager.h">
+      <Filter>Game State Management\Master</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateManagement\Menu Flow\IntroState.h">
+      <Filter>Game State Management\Menu Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateManagement\Menu Flow\MenuState.h">
+      <Filter>Game State Management\Menu Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateManagement\Game Flow\PlayState.h">
+      <Filter>Game State Management\Game Flow</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenes\Master\Scene.h">
+      <Filter>Scenes\Master</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FrustumCulling\FrustrumCulling.h">
       <Filter>Frustum Culling</Filter>
     </ClInclude>
   </ItemGroup>

@@ -2,10 +2,10 @@
 #define APPLICATION_H
 
 #include "timer.h"
-#include "SceneAssignment.h"
-#include "GameStateManager.h"
-#include "IntroState.h"
-#include "PlayState.h"
+#include "Scenes\Master\ScenePlay3D.h"
+#include "GameStateManagement\Master\GameStateManager.h"
+#include "GameStateManagement\Menu Flow\IntroState.h"
+#include "GameStateManagement\Game Flow\PlayState.h"
 
 // 2 = 2D, 3 = 3D Level
 // If you want more levels
@@ -51,7 +51,7 @@ private:
 
 	// The handler for the scene
 #if TYPE_OF_VIEW == 3
-	SceneAssignment *scene;	// Use this for 3D gameplay
+	CScenePlay3D *scene;	// Use this for 3D gameplay
 #else
 	SceneAssignment *scene;	// Use this for 2D gameplay
 #endif

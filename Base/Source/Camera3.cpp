@@ -196,7 +196,7 @@ void Camera3::TurnRight(const double dt)
 	up = right.Cross(view).Normalized();
 }
 // Update Camera status
-void Camera3::UpdateStatus(const unsigned char key)
+void Camera3::UpdateStatus(const unsigned char key, const bool status)
 {
 	myKeys[key] = true;
 }

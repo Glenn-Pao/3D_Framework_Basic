@@ -269,13 +269,13 @@ void Application::Run()
 {
 	//Main Loop
 #if TYPE_OF_VIEW == 3
-	scene = new SceneAssignment();
+	scene = new CScenePlay3D();
 	//scene = new SceneAssignment(m_window_width, m_window_height);	// Use this for 3D gameplay
 #else
 	scene = new SceneAssignment();
 	//scene = new SceneAssignment(m_window_width, m_window_height);	// Use this for 2D gameplay
 #endif
-	scene->Init();
+	scene->Init(0);
 
 	m_timer.startTimer();    // Start timer to calculate how long it takes to render this frame
 	while (!glfwWindowShouldClose(m_window) && !IsKeyPressed(VK_ESCAPE))
